@@ -1,6 +1,6 @@
 # E-Hentai 漫畫追蹤器 (E-Hentai Tracker)
 
-> 追蹤你喜愛的 **E-Hentai / ExHentai** 漫畫更新，並在第一時間以桌面通知、側邊欄顯示給你。完全基於 Chrome Manifest V3，零依賴、載入即用。
+> 追蹤你喜愛的 **E-Hentai** 漫畫更新，並在第一時間以桌面通知、側邊欄顯示給你。完全基於 Chrome Manifest V3，零依賴、載入即用。
 
 ---
 
@@ -29,16 +29,16 @@ comic_tracker_web/
 
 1. 下載或 `git clone` 本庫：
    ```bash
-   git clone https://github.com/<your-name>/comic_tracker_web.git
+   git clone https://github.com/yoitsu31/E-hentai-Tracker.git
    ```
 2. 在 Chrome 地址列輸入 `chrome://extensions/`，開啟「開發人員模式」。
-3. 點擊「載入已解壓縮的擴充功能」，選取 `comic_tracker_web` 根目錄。
+3. 點擊「載入已解壓縮的擴充功能」，選取 `E-hentai-Tracker` 根目錄。
 
 > Edge / Brave / Vivaldi 等 Chromium 系瀏覽器亦可使用相同步驟安裝。
 
 ## ✨ 使用說明
 
-1. 進入 E-Hentai / ExHentai 任意頁面，點擊工具列上的「E-Hentai Tracker」圖示（或按 `Alt+E`）開啟側邊欄。
+1. 點擊工具列上的「E-Hentai Tracker」圖示開啟側邊欄。
 2. 在側邊欄點擊「後臺管理」可開啟完整設定頁，新增要追蹤的標籤、調整更新頻率、語言及黑名單。
 3. 擴充套件會依設定週期自動檢查 RSS，並以官方 `/api.php` 取得詳細資訊；如有新作品將顯示通知並同步於側邊欄列出。
 
@@ -64,5 +64,3 @@ git checkout -b feat/your-feature
 若需商業授權，請另行聯絡作者。
 
 ---
-
-*本專案與 𝙀-𝙃𝙚𝙣𝙩𝙖𝙞 / 𝙀𝙭𝙃𝙚𝙣𝙩𝙖𝙞 官方無任何關聯。所有商標與版權歸原權利人所有。* 
