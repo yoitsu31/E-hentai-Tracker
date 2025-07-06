@@ -15,7 +15,7 @@
 
 ## 📂 專案結構
 ```text
-comic_tracker_web/
+E-hentai-Tracker/
 ├─ background.js   # 排程、RSS/GData 解析、通知
 ├─ content.js      # 注入側邊欄 UI 與頁內互動
 ├─ options.html    # 設定頁面（含 options.js / .css）
